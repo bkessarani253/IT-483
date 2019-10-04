@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mankato Apartments</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="contacteve.css">
+    
+</head>
+    <style>
+        body { background-color: lightblue;
+             background-image:url(students.jpg);
+
+        }
+    </style>
+    <body>
+        <main>
+            <p>Contact us </p>
+            <form class= "contact-form" action ="contactform.html" method = "post">
+                <label for = "Contact"> Contact Information </label>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="mail" placeholder="your e-mail" required>
+                <input type="tel" name="phone" id="phone" placeholder=phone >
+                <input type="text" name="subject" placeholder="subject" required>
+                <input type="date"  name="date" placeholder="today's date" required>
+                <input type="number" name="Rent" placeholder="Rent" min="200" max="5000">
+
+                <textarea name="message" placeholder="Message"></textarea>
+                <label for = "PropertyTyple"> Select bedrooms </label>
+
+                <script type="text/javascript">
+              function showfield(name){
+                if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="Please specify" placeholder= "Please specify" />';
+                else document.getElementById('div1').innerHTML='';
+              }
+              </script>
+                <select name="Property Type" id="PT" onchange= "showfield(this.options[this.selectedIndex].value)">
+                  <option selected="selected">Please select ...</option>
+                  <option value="apartments">5-bedroom east apartment</option>
+                  <option value="Town homes"> 4-bedroom elktree apartment</option>
+                  <option value="single-family homes">4-bed town homes</option>
+                  <option value="Other">Other</option>
+                  </select>
+              <div id="div1"></div>
+                <br /><br />
+              <button type= "submit" name="submit">Submit</button>
+
+     
+
+
+
+                </form>
+        </main>
+    </body>
+</html>

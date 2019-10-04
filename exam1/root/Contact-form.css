@@ -1,0 +1,67 @@
+
+        }
+        .contact-form{
+          max-width: 500px;
+          margin:auto;
+          border-radius: 5px;
+          background:#96bb72;
+          padding:100px;
+
+
+        }
+        input [type=text], select{
+          width:100%;
+          padding:20px 40px;
+          margin box:8px 0;
+          display: inline-block;
+          border: 1px solid #CCC;
+          border-radius :4px;
+          box-sizing:border-box;
+   }
+
+   input [type=text], option{
+          width:100%;
+          padding:20px 40px;
+          margin box:8px 0;
+          display: inline-block;
+          border: 1px solid #CCC;
+          border-radius :4px;
+          box-sizing:border-box;
+   }
+
+          input [type=text],input{
+            width:100%;
+            padding:20px 40px;
+            margin box:8px 0;
+            display: inline-block;
+            border: 1px solid #CCC;
+            border-radius :4px;
+            box-sizing:border-box;
+
+          }
+          input [type=text], textarea{
+            width:100%;
+            padding:50px 50px;
+            margin box:8px 0;
+            display: inline-block;
+            border: 1px solid #CCC;
+            border-radius :8px;
+            box-sizing:border-box;
+     }
+     input [type=text], label{
+       width:100%;
+       padding:20px 40px;
+       margin box:8px 0;
+       display: inline-block;
+       border-radius :4px;
+}
+
+input [type=text], button{
+       background:orangered;
+       width:100%;
+       padding:20px 40px;
+       margin box:8px 0;
+       display: inline-block;
+       border-radius :20px;
+}
+        }

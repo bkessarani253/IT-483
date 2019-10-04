@@ -1,0 +1,213 @@
+.header img {
+  animation: rotation 8s
+      infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+body {
+font-size: .875rem;
+
+display: flex;
+
+width: 800px;
+margin: auto;
+
+border: 1px solid #000;
+background: #FFF;
+box-shadow: 0 4px 4px #000;
+
+flex-flow:column;
+}
+
+:root {
+background: url(apart.jpg);
+background: -webkit-image-set(url(apart.jpg)1x);
+}
+
+.header {
+border-bottom: 1px solid #000;
+background: linear-gradient(45deg, #000000, #ff8c00 50%, #ff8c00);
+
+flex: 100%;
+}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+    color:white;
+    font-weight:bolder;
+    font-style: italic;
+    font-family:monospace;
+    
+
+}
+.header h1{
+    text-shadow: 4px
+}
+
+h2{
+    text-align:left
+color:red}
+
+h3 {
+    text-align: left 1;
+}
+h4 {
+    color:;
+}
+
+about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+career {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+contact {
+  top: 200px;
+  background-color: #555
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+nav a:hover {
+  color:white;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#projects {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#career {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+</s
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    width:200px;
+    padding: 20px
+    margin-bottom: .5em;
+    border: 2px = black;
+    border-radius: 25px
+}
+
+
+nav ul li a {
+    display:block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration:underline;
+    font-weight:bold;
+    color: white; 
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color:dimgray;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:darkorange;
+  color: white;
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 25px;
+}
+
+a {
+  text-decoration: none;
+  display:;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color:yellowgreen;
+  color: black;
+}
+
+.next {
+  background-color: white;
+    color: orange;
+
+    
+}
+
+footer {
+border-bottom: 1px solid #000;
+background: linear-gradient(45deg, #9e9e00, #98ff98 50%, #9e9e00);
+
+flex: 100%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title> Customer Contact Form </title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="contacteve.css">
+    
+        <style>
+              body { background-color: lightblue;
+             background-image:url(bk2.jpg)
+
+        }
+        </style>
+
+
+    </head>
+    <body>
+        <main>
+            <p>Contact us </p>
+            <form class= "contact-form" action ="contactform.html" method = "post">
+                <label for = "Contact"> Contact Information </label>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="mail" placeholder="your e-mail" required>
+                <input type="tel" name="phone" id="phone" placeholder=phone >
+                <input type="text" name="subject" placeholder="subject" required>
+                <textarea name="message" placeholder="Message"></textarea>
+                <label for = "PropertyTyple"> Property Type </label>
+
+                <script type="text/javascript">
+              function showfield(name){
+                if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="Please specify" placeholder= "Please specify" />';
+                else document.getElementById('div1').innerHTML='';
+              }
+              </script>
+                <select name="Property Type" id="PT" onchange= "showfield(this.options[this.selectedIndex].value)">
+                  <option selected="selected">Please select ...</option>
+                  <option value="apartments">apartments</option>
+                  <option value="Town homes">Town Homes</option>
+                  <option value="single-family homes">single-family homes</option>
+                  <option value="Other">Other</option>
+                  </select>
+              <div id="div1"></div>
+
+
+                <br /><br />
+              <button type= "submit" name="submit">Submit</button>
+
+      <!--<input type="text" name="mytext1", placeholder="specify" />-->
+
+
+              <!--  <input type ="Submit" value = "Submit">-->
+<a href="index.HTML" class="Previous">previous page &raquo;</a>
+<a href="gallery.html" class="next">Next page &raquo;</a>
+
+
+                </form>
+        </main>
+    </body>
+</html>
